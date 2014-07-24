@@ -1,0 +1,36 @@
+{
+  "name": "Freifunk Karlsruhe",
+  "url": "http://ka-freifunk.de",
+  "location": {
+    "city": "Karlsruhe",
+    "country": "DE",
+    "lat": 49.00921,
+    "lon": 8.403951,
+    "address": {
+      "Name": "Entropia",
+      "Street": "Steinstraße 23",
+      "Zipcode": "76133"
+    }
+  },
+  "metacommunity": "Freifunk Rheinland",
+  "contact": {
+    "irc": "irc://irc.hackint.org/ffka",
+    "ml": "freifunk-ka@entropia.de"
+  },
+  "timeline": [
+    {
+      "decription": "birth",
+      "timestamp": "2014-06-20"
+    }
+  ],
+  "state": {
+    "lastchange": "2014-07-24T19:25:59.535Z",
+    "focus": []
+  },
+  "api": "0.4.1",
+  "techDetails": {
+    "routing": [],
+    "updatemode": [],
+    "legals": []
+  }
+}
