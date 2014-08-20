@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Karlsruhe",
-  "url": "http://ka-freifunk.de",
+  "url": "http://www.freifunk-karlsruhe.de/",
   "location": {
     "city": "Karlsruhe",
     "country": "DE",
@@ -24,7 +24,7 @@
     }
   ],
   "state": {
-    "lastchange": "2014-07-24T19:25:59.535Z",
+    "lastchange": "2014-08-18T13:27:11.123Z",
     "focus": []
   },
   "api": "0.4.1",
