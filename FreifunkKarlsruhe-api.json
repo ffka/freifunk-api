@@ -1,36 +1,77 @@
 {
   "name": "Freifunk Karlsruhe",
-  "url": "http://www.freifunk-karlsruhe.de/",
+  "url": "http://www.freifunk-karlsruhe.de",
   "location": {
     "city": "Karlsruhe",
     "country": "DE",
     "lat": 49.00921,
     "lon": 8.403951,
     "address": {
-      "Name": "Entropia",
-      "Street": "Steinstraße 23",
+      "Name": "Entropia e.V.",
+      "Street": "Steinstr. 23",
       "Zipcode": "76133"
     }
   },
-  "metacommunity": "Freifunk Rheinland",
+  "metacommunity": "Freifunk Rheinland e.V.",
+  "state": {
+    "nodes": 220,
+    "lastchange": "2015-07-13T19:59:49.377Z",
+    "focus": []
+  },
   "contact": {
     "irc": "irc://irc.hackint.org/ffka",
-    "ml": "freifunk-ka@entropia.de"
+    "ml": "freifunk-ka@entropia.de",
+    "facebook": "https://facebook.com/FreifunkKA",
+    "twitter": "@FFKarlsruhe"
   },
   "timeline": [
     {
-      "decription": "birth",
+      "description": "birth",
       "timestamp": "2014-06-20"
     }
   ],
-  "state": {
-    "lastchange": "2014-08-18T13:27:11.123Z",
-    "focus": []
-  },
-  "api": "0.4.1",
+  "nodeMaps": [
+    {
+      "url": "http://www.ffka.net/map/geomap.html",
+      "interval": "hourly",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    }
+  ],
   "techDetails": {
-    "routing": [],
-    "updatemode": [],
-    "legals": []
-  }
+    "firmware": {
+      "name": "gluon",
+      "url": "https://karlsruhe.freifunk.net/firmware/"
+    },
+    "dns": [
+      {
+        "domainname": "ffka",
+        "nameserver": [
+          "albufer0.ffka.net"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "2a03:2260:a::/48"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.214.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "institutions"
+    ]
+  },
+  "api": "0.4.8"
 }
